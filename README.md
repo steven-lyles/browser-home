@@ -1,6 +1,8 @@
 # browser-home
 A very zen, uncluttered, customizable home page for your browser.
 
+![Screenshot](screenshot.jpg)
+
 ## Description
 I got tired of the basic home pages that the main browsers give you. They always have something you don't want. I wanted something very uncluttered, simple and with a random inspiration.
 
