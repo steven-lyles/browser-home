@@ -1,0 +1,236 @@
+var background =
+{
+  "images": [
+    { "i" :  0,
+      "pathname"    : "./backgrounds/zen-stones-green.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "Zen teaches nothing; it merely enables us to wake up and become aware. It does not teach, it points.",
+        "credit" : "D.T. Suzuki"
+      }
+    },
+    { "i" :  1,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/zen-stones-green.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "Zen is an effort to become alert and awake.",
+        "credit" : "Osho"
+      }
+    },
+    { "i" :  2,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/cockleshell-beach.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "black",
+      "position"    : "top",
+      "quote" : {
+        "text" : "There is pleasure in the pathless woods, there is rapture in the lonely shore, there is society where none intrudes, by the deep sea, and music in its roar.",
+        "credit" : "Lord Byron"
+      }
+    },
+    { "i" :  3,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/eagle-flying.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "black",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "A believer is a bird in a cage, a freethinker is an eagle parting the clouds with tireless wing",
+        "credit" : "Robert Green Ingersoll"
+      }
+    },
+    { "i" : 4,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/rolling-waves.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "Empty your mind, be formless. Shapeless, like water. If you put water into a cup, it becomes the cup... Now, water can flow or it can crash. Be water, my friend.",
+        "credit" : "Bruce Lee"
+      }
+    },
+    { "i" : 5,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/walle.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote": {
+        "text" : "Things are as they are. Looking out into the universe at night, we make no comparisons between right and wrong stars, nor between well and badly arranged constellations.",
+        "credit" : "Alan Watts"
+      }
+    },
+    { "i" : 6,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/forest-stream.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "And into the forest I go, to lose my mind and find my soul.",
+        "credit" : "John Muir"
+      }
+    },
+    { "i" : 7,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/howling-wolf.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "middle",
+      "quote" : {
+        "text" : "Those who do not howl will never find their pack.",
+        "credit" : "Clarissa Pinkola Estés"
+      }
+    },
+    { "i" : 8,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/morning-mist.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "Fog is rain that whispers.",
+        "credit" : "Olivia Dresher"
+      }
+    },
+    { "i" : 9,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/lake-deer-rowboat.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "Our truest life is when we are in dreams awake.",
+        "credit" : "Henry David Thoreau"
+      }
+    },
+    { "i" : 10,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/swan-family.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "I will play the swan, and die in music.",
+        "credit" : "William Shakespeare"
+      }
+    },
+    { "i" : 11,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/shadowfax.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "black",
+      "position"    : "top",
+      "quote" : {
+        "text" : "The air of heaven is that which blows between a horse's ears",
+        "credit" : "Arabian Proverb"
+      }
+    },
+    { "i" : 12,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/three-strikes.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "The idea came like a flash of lightning and in an instance the truth was revealed.",
+        "credit" : "Nikola Tesla"
+      }
+    },
+    { "i" : 13,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/raindrops.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "Let the rain kiss you. Let the rain beat upon your head with silver liquid drops. Let the rain sing you a lullaby.",
+        "credit" : "Langston Hughes"
+      }
+    },
+    { "i" : 14,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/dancing-horses.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "A horse is a beautiful animal, but he is perhaps most remarkable because he moves as if he always hears music.",
+        "credit" : "Mark Helprin, A Winter's Tale"
+      }
+    },
+    { "i" : 15,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/acorns-oak-leaf.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "black",
+      "position"    : "top",
+      "quote" : {
+        "text" : "The creation of a thousand forests is in one acorn.",
+        "credit" : "Ralph Waldo Emerson"
+      }
+    },
+    { "i" : 16,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/alps.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "These mountains that you are carrying, you were only supposed to climb.",
+        "credit" : "Najwa Zebian"
+      }
+    },
+    { "i" : 17,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/space.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text" : "Forget the years, forget distinctions. Leap into the boundless and make it your home.",
+        "credit" : "Zhuangzi"
+      }
+    },
+    { "i" : 18,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/lone-wolf.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "bottom",
+      "quote" : {
+        "text" : "In the calm, deep waters of the mind, the wolf waits.",
+        "credit" : "F.T. McKinstry"
+      }
+    },
+    { "i" : 19,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/moon-mist.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "middle",
+      "quote" : {
+        "text" : "The earth has music for those who listen.",
+        "credit" : "William Shakespeare"
+      }
+    },
+    { "i" : 20,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/sunflower-field.jpg",
+      "quote_color" : "black",
+      "desc_color"  : "white",
+      "position"    : "top",
+      "quote" : {
+        "text": "The earth laughs in flowers.",
+        "credit": "Ralph Waldo Emerson"
+      }
+    },
+    {
+      "i": 21,
+      "pathname": "https://www.stevenlyles.net/playground/backgrounds/blue-eyes.jpg",
+      "quote_color": "white",
+      "desc_color": "white",
+      "position": "bottom",
+      "quote": {
+        "text": "If there are no dogs in Heaven, then when I die I want to go where they went.",
+        "credit": "Will Rogers"
+      }
+    },
+    { "i" : 22,
+      "pathname"    : "https://www.stevenlyles.net/playground/backgrounds/misty-forest-path.jpg",
+      "quote_color" : "white",
+      "desc_color"  : "white",
+      "position"    : "middle",
+      "quote" : {
+        "text": "Two roads diverged in a wood - I took the one less traveled by and that has made all the difference.",
+        "credit": "Robert Frost"
+      }
+    }
+  ]
+}

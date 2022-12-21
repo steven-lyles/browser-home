@@ -1,0 +1,233 @@
+var config =
+{
+  "links": [
+    {
+      "link": "https://www.google.com",
+      "icon": "./icons/google_icon.png",
+      "desc": "Google"
+    },
+    {
+      "link": "https://mail.google.com/mail/u/0/#inbox",
+      "icon": "./icons/google_gmail.png",
+      "desc": "Gmail"
+    },
+    {
+      "link": "https://www.google.com/maps/",
+      "icon": "./icons/google_maps.png",
+      "desc": "Maps"
+    },
+    {
+      "link": "https://drive.google.com/drive/my-drive",
+      "icon": "./icons/google_drive.png",
+      "desc": "Drive"
+    },
+    {
+      "link": "https://github.com/",
+      "icon": "./icons/github.png",
+      "desc": "Github"
+    },
+    {
+      "link": "https://www.amazon.com/ref=nav_logo",
+      "icon": "./icons/amazon-icon.png",
+      "desc": "Amazon"
+    }
+  ],
+  "quotes": [
+    {
+      "text" : "Always do what you are afraid to do.",
+      "credit" : "Ralph Waldo Emerson"
+    },
+    {
+      "text" : "When you arise in the morning, think of what a precious privilege it is to be alive - to breathe, to think, to enjoy, to love.",
+      "credit" : "Marcus Aurelius"
+    },
+    {
+      "text" : "... our bodies are the instruments through which our souls play their music.",
+      "credit" : "Albert Einstein"
+    },
+    {
+      "text" : "The earth has music for those who listen.",
+      "credit" : "William Shakespeare"
+    },
+    {
+      "text" : "Study nature, love nature, stay close to nature. It will never fail you.",
+      "credit" : "Frank Lloyd Wright"
+    },
+    {
+      "text" : "If you cannot find a good companion to walk with, walk alone. It is better to be alone than to be with those who hinder your progress.",
+      "credit" : "Buddha"
+    },
+    {
+      "text" : "It's not about being the best. It's about being better than you were yesterday.",
+      "credit" : "Unknown"
+    },
+    {
+      "text" : "When you realize nothing is lacking, the whole world belongs to you.",
+      "credit" : "Lao Tzu"
+    },
+    {
+      "text" : "Don't fear failure... In great attempts it is glorious even to fail.",
+      "credit" : "Bruce Lee"
+    },
+    {
+      "text" : "The quieter you become, the more you are able to hear.",
+      "credit" : "Unknown"
+    },
+    {
+      "text" : "What the superior man seeks is in himself; what the small man seeks is in others.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "To seek is to suffer. To seek nothing is bliss.",
+      "credit" : "Bodhidharma"
+    },
+    {
+      "text" : "Wise men don't judge - they seek to understand.",
+      "credit" : "Wei Wu Wei"
+    },
+    {
+      "text" : "When thoughts arise, then do all things arise. When thoughts vanish, then do all things vanish.",
+      "credit" : "Huang Po"
+    },
+    {
+      "text" : "The noble-minded are calm and steady. Little people are forever fussing and fretting.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "Nothing ever goes away until it has taught us what we need to know.",
+      "credit" : "Pema Chodron"
+    },
+    {
+      "text" : "Life is a balance of holding on and letting go.",
+      "credit" : "Rumi"
+    },
+    {
+      "text" : "Nature does not hurry, yet everything is accomplished.",
+      "credit" : "Lao Tzu"
+    },
+    {
+      "text" : "One loses joy and happiness in the attempt to possess them.",
+      "credit" : "Masanobu Fukuoka"
+    },
+    {
+      "text" : "Forget the years, forget distinctions. Leap into the boundless and make it your home.",
+      "credit" : "Zhuangzi"
+    },
+    {
+      "text" : "The place to improve the world is first in one's own heart and head and hands.",
+      "credit" : "Robert M. Pirsig"
+    },
+    {
+      "text" : "Everything that happens to you is a form of instruction if you pay attention.",
+      "credit" : "Robert Greene"
+    },
+    {
+      "text" : "If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at peace, you are living in the present.",
+      "credit" : "Lao Tzu"
+    },
+    {
+      "text" : "Zen is an effort to become alert and awake.",
+      "credit" : "Osho"
+    },
+    {
+      "text" : "Zen teaches nothing; it merely enables us to wake up and become aware. It does not teach, it points.",
+      "credit" : "D.T. Suzuki"
+    },
+    {
+      "text" : "There are only two ways to live your life. One is as if nothing is a miracle. The other is as if everything is a miracle.",
+      "credit" : "Albert Einstein"
+    },
+    {
+      "text" : "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.",
+      "credit" : "Lao Tzu"
+    },
+    {
+      "text" : "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+      "credit" : "Buddha (and Yoda)"
+    },
+    {
+      "text" : "A great man is hard on himself; a small man is hard on others.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "The first and the best victory is to conquer self.",
+      "credit" : "Plato"
+    },
+    {
+      "text" : "Act without expectation.",
+      "credit" : "Lao Tzu"
+    },
+    {
+      "text" : "Don't curse the darkness, light a candle.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "Now I know what success is: living your truth, sharing it.",
+      "credit" : "Kamal Ravikant"
+    },
+    {
+      "text" : "I follow four dictates: face it, accept it, deal with it, then let it go.",
+      "credit" : "Sheng-yen"
+    },
+    {
+      "text" : "If you know the enemy and know yourself you need not fear the results of a hundred battles.",
+      "credit" : "Sun Tzu"
+    },
+    {
+      "text" : "If you want happiness for a year, inherit a fortune. If you want happiness for a lifetime, help someone else.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "In the midst of chaos, there is also opportunity.",
+      "credit" : "Sun Tzu"
+    },
+    {
+      "text" : "The three elements of creativity are thus: loving, knowing, and doing - or heart, mind, and hands or, as Zen Buddhist teaching has it; great faith, great question, and great courage.",
+      "credit" : "Eric Maisel"
+    },
+    {
+      "text" : "Live in each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influence of the earth.",
+      "credit" : "Henry David Thoreau"
+    },
+    {
+      "text" : "A man is great not because he hasn't failed; a man is great because failure hasn't stopped him.",
+      "credit" : "Confucius"
+    },
+    {
+      "text" : "Have the fearless attitude of a hero and the loving heart of a child.",
+      "credit" : "Soyen Shaku"
+    },
+    {
+      "text" : "Forget not that the earth delights to feel your bare feet and the winds long to play with your hair.",
+      "credit" : "Khalil Gibran"
+    },
+    {
+      "text" : "Things are as they are. Looking out into the universe at night, we make no comparisons between right and wrong stars, nor between well and badly arranged constellations.",
+      "credit" : "Alan Watts"
+    },
+    {
+      "text" : "If you are unable to find the truth right where you are, where else do you expect to find it?",
+      "credit" : "Dogen"
+    },
+    {
+      "text" : "Muddy water is best cleared by leaving it alone.",
+      "credit" : "Alan Watts"
+    },
+    {
+      "text" : "As a bee gathering nectar does not harm or disturb the color and fragrance of the flower; so do the wise move through the world.",
+      "credit" : "Buddha"
+    },
+    {
+      "text" : "Nothing ever exists entirely alone. Everything is in relation to everything else.",
+      "credit" : "Buddha"
+    },
+    {
+      "text" : "",
+      "credit": ""
+    }
+  ]
+}
