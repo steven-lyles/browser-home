@@ -37,7 +37,7 @@ This file contains a JSON object that is assigned to a Javascript variable. The 
 ```
 | key         | Description                                                                 |
 |-------------|-----------------------------------------------------------------------------|
-| i           | That is not used be the code and is for human reading only.                 |
+| i           | This index is not used by the code and is for human reading only.           |
 | pathname    | This is the pathname to the background image. Can be relative or url        |
 | quote_color | Color of the quote text; select to suit the background                      |
 | desc_color  | Color of text name of link icon; also select to best suit background        |
